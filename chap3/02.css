@@ -1,0 +1,4 @@
+#main section + section {
+  margin-to: 50px; }
+#main section > h1 {
+  font-size: 140%; }

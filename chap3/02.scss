@@ -1,0 +1,10 @@
+#main {
+  section {
+    + section {
+      margin-to: 50px;
+    }
+    > h1 {
+      font-size: 140%;
+    }
+  }
+}

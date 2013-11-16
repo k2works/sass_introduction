@@ -1,0 +1,9 @@
+// 赤色の変数を宣言
+$red: #cf2d3a;
+
+.notes {
+  color: $red;
+  }
+.notesBox {
+  border: 3px double $red;
+  }

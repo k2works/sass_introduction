@@ -1,0 +1,6 @@
+$セレクタ名: '.pickupContentsArea, section.main';
+$IMG_PATH: '../img/bg/';
+
+#{$セレクタ名} {
+  background: url(#{$IMG_PATH}pickup.png);
+  }

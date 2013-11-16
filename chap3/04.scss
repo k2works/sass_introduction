@@ -1,0 +1,9 @@
+#side {
+  width: 240px;
+  body.top & {
+    width: 300px;
+  }
+  ul.bnr {
+    margin-bottom: 10px;
+  }
+}

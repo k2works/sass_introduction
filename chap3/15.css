@@ -1,0 +1,11 @@
+a.sample01:hover {
+  color: #666666; }
+
+a.sample02:hover {
+  color: #3333ff; }
+
+a.sample03:hover {
+  color: #303030; }
+
+a.sample04:hover {
+  color: rbg(255, 255, 255)-10; }

@@ -1,0 +1,8 @@
+.item {
+  $value: 15px;
+  margin-left: $value;
+  padding: $value;
+  p {
+    margin-bottom: $value;
+    }
+  }

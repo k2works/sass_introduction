@@ -1,0 +1,13 @@
+section {
+  $value: 30px;
+  margin-top: $value;
+  margin-bottom: $value;
+  }
+
+.item {
+  $value: 15px;
+  padding: $value;
+  p {
+    margin-bottom: $value;
+    }
+  }
