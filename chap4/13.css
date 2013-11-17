@@ -1,0 +1,8 @@
+.item .image {
+  float: left; }
+  *:first-child + html .item .image {
+    zoom: 1; }
+.item .text {
+  background: rbga(0, 0, 0, 0.2); }
+  *:first-child + html .item .text {
+    background: #eee; }

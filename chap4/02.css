@@ -1,0 +1,12 @@
+.notes, .tem small {
+  color: #d92c25;
+  font-weight: bold;
+  text-align: center; }
+
+.bd, .tem small {
+  border-top: 1px solid #900;
+  border-bottom: 1px solid #900; }
+
+.tem small {
+  display: block;
+  padding: 10px; }

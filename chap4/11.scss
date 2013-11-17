@@ -1,0 +1,13 @@
+@mixin boxBase($w: 250px, $pd: 15px, $bg_c: #fff, $bd_c: #ccc) {
+  width: $w;
+  padding: $pd;
+  background-color: $bg_c;
+  border: 1px solid $bd_c;
+  }
+
+$values: 300px, 20px;
+
+.item {
+  float: left;
+  @include boxBase($values...);
+  }

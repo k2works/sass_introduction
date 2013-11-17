@@ -1,0 +1,13 @@
+// 使える文字
+@mixin shadow1 { ~ }
+@mixin shadow-1 { ~ }
+@mixin shadow_1 { ~ }
+@mixin 影 { ~ }
+@mixin ｓｈａｄｏｗ { ~ }
+@mixin _shadow { ~ }
+@mixin -shadow { ~ }
+
+// 使えない文字
+@mixin 01shadow { ~ }
+@mixin shadow@2 { ~ }
+@mixin --shadow { ~ }

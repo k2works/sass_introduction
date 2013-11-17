@@ -1,0 +1,15 @@
+.att {
+  color: red;
+  font-weight: normal;
+  }
+.attBox {
+  // .attを継承
+  @extend .att;
+  padding: 15px;
+  border: 1px solid red;
+  }
+
+.notes {
+  // .attが継承されている,.attBoxを継承（連鎖）
+  @extend .attBox;
+  }

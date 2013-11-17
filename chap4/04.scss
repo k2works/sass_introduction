@@ -1,0 +1,46 @@
+// @extendが使える例
+// クラスセレクタ
+.class {
+  color: blue;
+  }
+// タイプセレクタ
+small {
+  color: blue;
+  }
+// IDセレクタ
+#selectorID {
+  color: blue;
+  }
+// 連結セレクタ
+.pd.bd {
+  color: blue;
+  }
+// 属性セレクタ
+input[type="text"] {
+  color: blue;
+}
+// 疑似クラス
+a:hover {
+  color: blue;
+  }
+// 疑似要素
+p:first-line {
+  color: blue;
+  }
+
+// @extendが使えない例
+.item p {
+  margin-bottom: 15px;
+  }
+// 子セレクタ
+#main > article {
+  margin-bottom: 50px;
+  }
+// 隣接セレクタ
+h2 + h3 {
+  margin-top: 0;
+  }
+// 間接セレクタ
+h3 ~ h3 {
+  margin-top: 30px;
+  }

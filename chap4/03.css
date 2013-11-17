@@ -1,0 +1,7 @@
+.att, .attBox, .notes {
+  color: red;
+  font-weight: normal; }
+
+.attBox, .notes {
+  padding: 15px;
+  border: 1px solid red; }

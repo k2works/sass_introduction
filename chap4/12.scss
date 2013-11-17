@@ -1,0 +1,8 @@
+.main {
+  @mixin margin {
+    margin: 50px 0;
+    }
+  .item {
+    @include margin;
+    }
+  }

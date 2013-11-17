@@ -1,0 +1,16 @@
+// ミックスインを定義
+@mixin boxSet {
+  padding: 15px;
+  background: #999;
+  color: white;
+  }
+
+// 定義したミックスインを呼び出し
+.relatedArea {
+  @include boxSet;
+  }
+
+// 別のルールセットでも呼び出し
+.pickupArea {
+  @include boxSet;
+  }

@@ -1,0 +1,20 @@
+@import "extend";
+
+ul.btnList {
+  li {
+    @extend .btnBase;
+    }
+  }
+.item {
+  width: 300px;
+  .photo {
+    @extend .imgL;
+    margin-bottom: 10px;
+    }
+  .text {
+    .btn {
+      @extend .btnBase;
+      text-align: left;
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+.class {
+  color: blue; }
+
+small {
+  color: blue; }
+
+#selectorID {
+  color: blue; }
+
+.pd.bd {
+  color: blue; }
+
+input[type="text"] {
+  color: blue; }
+
+a:hover {
+  color: blue; }
+
+p:first-line {
+  color: blue; }
+
+.item p {
+  margin-bottom: 15px; }
+
+#main > article {
+  margin-bottom: 50px; }
+
+h2 + h3 {
+  margin-top: 0; }
+
+h3 ~ h3 {
+  margin-top: 30px; }

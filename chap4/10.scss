@@ -1,0 +1,20 @@
+@mixin shadow($value) {
+  text-shadow: $value;
+  }
+// 複数の値を()で囲ってひとつのリストにする
+h2 {
+  @include shadow((8px 8px 0 #999,15px -10px 0 #eee));
+  }
+// 複数の値を""や''で囲って文字列にする
+h2 {
+  @include shadow(unquote("8px 8px 0 #999,15px -10px 0 #eee"));
+  }
+
+// 可変長引数
+@mixin shadow2($value...) {
+  text-shadow: $value;
+  }
+
+h2 {
+  @include shadow2(8px 8px 0 #999, 15px -10px 0 #eee);
+  }

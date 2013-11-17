@@ -1,0 +1,10 @@
+.box {
+  margin: 0 0 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  }
+
+// .boxで使ったスタイルを継承
+.item {
+  @extend .box;
+  }

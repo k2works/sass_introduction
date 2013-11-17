@@ -129,6 +129,52 @@ Sassが使えるようになる
 
 ## <a name="cha4">Sassの高度な機能 ##
 
+### スタイルの継承ができる@extend ###
++ @extendの基本
+  chap4/01.scss
+  chap4/_extend.scss
+  chap4/style.scss
+
++ 同じルールセット内で、複数継承する
+  chap4/02.scss
+
++ @extendの連鎖
+  chap4/03.scss
+
++ @extendが使えるセレクタ使えないセレクタ
+  chap4/04.scss
+
++ @media内では@extendは使用できない
+  chap4/05.scss
+
+### 柔軟なスタイルの定義が可能なミックスイン(@mixin) ###
++ ミックスインの基本
+  chap4/06.scss
+
++ 引数を使ったミックスイン
+  chap4/07.scss
+
++ 引数に初期値を定義する
+  chap4/08.scss
+
++ 引数を複数定義する
+  chap4/09.scss
+
++ ,（カンマ）を使うプロパティには可変長引数を利用する
+  chap4/10.scss
+
++ 複数の引数があるミックスインを読み込む際に可変長引数を使う
+  chap4/11.scss
+
++ ミックスインのスコープを制限する
+  chap4/12.scss
+
++ ミックスインにコンテントブロックを渡す@content
+  chap4/13.scss
+
++ ミックスイン名で使える文字と使えない文字
+  chap4/14.scss
+
 # 参照 #
 
 [Web制作者のためのSassの教科書](http://book.scss.jp/)

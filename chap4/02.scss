@@ -1,0 +1,20 @@
+// @extend
+.notes {
+  color: #d92c25;
+  font-weight: bold;
+  text-align: center;
+  }
+.bd {
+  border-top: 1px solid #900;
+  border-bottom: 1px solid #900;
+  }
+
+// 複数継承
+.tem {
+  small {
+    display: block;
+    padding: 10px;
+    @extend .notes;
+    @extend .bd;
+    }
+  }

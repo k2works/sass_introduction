@@ -1,0 +1,19 @@
+@mixin boxBase($margin: 30px 0, $padding: 10px) {
+  margin: $margin;
+  padding: $padding;
+  }
+
+.boxA {
+  @include boxBase;
+  background: #eee;
+  }
+.boxB {
+  @include boxBase(0 0 50px, 20px);
+  background: #f1f1f1;
+  }
+// marginの値だけ変える場合
+.boxC {
+  @include boxBase(0 0 50px);
+  background: #f1f1f1;
+  }
+  
