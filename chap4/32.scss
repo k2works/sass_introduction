@@ -1,0 +1,13 @@
+$width: 105px;
+
+@function halfSize($value:$width) {
+  @return round($value / 2);
+  }
+
+.boxA {
+  width: halfSize();
+  }
+
+.boxB {
+  width: halfSize(200px);
+  }

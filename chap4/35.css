@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.DataTypes:after {
+  /* Number型 */
+  content: "number";
+  /* Color型 */
+  content: "color";
+  /* String型 */
+  content: "string";
+  /* Boolean型 */
+  content: "bool";
+  /* List型 */
+  content: "list";
+  /* Null型 */
+  content: "null"; }

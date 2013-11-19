@@ -1,0 +1,14 @@
+$value: 1000px;
+@function warnTest() {
+  @if unitless($value) {
+    $value: $value + px;
+    }
+  @else {
+    @warn "#{$value}は駄目!$valueに単位を入れないで!";
+    }
+  @return $value;
+  }
+.box {
+  width: warnTest();
+  }
+  

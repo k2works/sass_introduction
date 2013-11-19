@@ -1,0 +1,5 @@
+@function example($value) {
+  @if type-of($value) == number {
+    処理
+    }
+  }

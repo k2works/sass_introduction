@@ -1,0 +1,15 @@
+$width: 100%;
+
+.boxA {
+  width: $width / 3;
+  }
+.boxB {
+  width: ceil($width / 3);
+  }
+
+.boxC {
+  width: $width / 6;
+  }
+.boxD {
+  width: floor($width / 6);
+  }

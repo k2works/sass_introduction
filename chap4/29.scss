@@ -1,0 +1,7 @@
+@function halfSize($value) {
+  @return $value / 2;
+  }
+
+.boxA {
+  width: halfSize(100px);
+  }

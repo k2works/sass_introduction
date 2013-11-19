@@ -1,0 +1,12 @@
+$radius: 10px;
+
+%kadomaru {
+  $radius: 5px !default;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-raius: $radius;
+  }
+
+.item {
+  @extend %kadomaru;
+  }

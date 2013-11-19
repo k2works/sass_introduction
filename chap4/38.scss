@@ -1,0 +1,11 @@
+p.sampleA {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: $font-size/$line-height;
+  }
+
+p.sampleB {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: #{$font-size}/#{$line-height};
+  }

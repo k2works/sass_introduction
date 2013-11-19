@@ -1,0 +1,8 @@
+@for $value from 1 through 2 {
+  .mt_#{$value * 10} {
+    margin-top: 10px * $value;
+    }
+  .mb_#{$value * 10} {
+    margin-bottom: 10px * $value;
+    }
+  }

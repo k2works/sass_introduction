@@ -1,0 +1,11 @@
+// 汎用的なclassを使うかどうか
+$generalStyle: true;
+
+@if $generalStyle {
+  .fl {
+    float: left;
+    }
+  .fl {
+    float: right;
+    }
+  }

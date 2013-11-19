@@ -1,0 +1,4 @@
+$nameList: top, about, company;
+.item {
+  background: url(#{nth($nameList,2)}.png);
+  }

@@ -1,0 +1,8 @@
+$width: 100%;
+
+.boxA {
+  width: $width / 6;
+  }
+.boxB {
+  width: round($width / 6);
+  }

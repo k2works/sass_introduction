@@ -1,0 +1,15 @@
+body {
+  background: lighten(#000,30%);
+  }
+body {
+  background: darken(#fff,20%);
+  }
+
+$c: #888;
+
+.boxA {
+  background: lighten($c, 20%);
+  }
+.baxB {
+  background: darken($c,20%);
+  }

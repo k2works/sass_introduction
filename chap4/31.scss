@@ -1,0 +1,9 @@
+$width: 105px;
+
+@function halfSize() {
+  @return round($width / 2);
+  }
+
+.boxA {
+  width: halfSize();
+  }

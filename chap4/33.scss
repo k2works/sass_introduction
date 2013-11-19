@@ -1,0 +1,19 @@
+@debug 10em + 12em;
+
+$value: 500;
+@function debugTest() {
+  @debug $value;
+  $value: $value - 100;
+  $value: $value - 100;
+  @debug $value;
+  $value: $value - 100;
+  $value: $value - 100;
+  $value: $value - 100;
+  @debug $value;
+  @return $value + px;
+  }
+
+.boxA {
+  width: debugTest();
+  }
+    

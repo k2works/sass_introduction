@@ -1,0 +1,10 @@
+$value: 300;
+@while $value > 200 {
+  .box_#{$value} {    
+    width: 2px * $value;
+  }
+  $value: $value - 32;
+}
+    
+            
+  

@@ -1,0 +1,16 @@
+body {
+  background: mix(#000, #fff, 50%);
+  }
+body {
+  background: mix(rgba(000,000,000,.3), #fff, 50%);
+  }
+
+$a: #000;
+$b: #fff;
+
+.boxA {
+  background: mix($a, $b, 70%);
+  }
+.boxB {
+  background: mix($a, $b, 30%);
+  }
