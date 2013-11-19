@@ -29,19 +29,6 @@ Sassが使えるようになる
 ## <a name="cha2">Sassコマンドの使い方 ##
 + [test.scss](chap2/test.scss)
 
-        #main {
-          width: 600px;
-          p {
-            margin: 0 0 1em;
-            em {
-              color: #f00;
-            }
-          }
-          small {
-            font-size: small;
-          }    
-        }
-
 + コンパイル
 
         $ sass test.scss:test.css        
